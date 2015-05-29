@@ -1,0 +1,183 @@
+.header {
+  background-color: black;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  width: 100%;
+  height: 125px;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+h1{
+  font-family: 'Indie Flower', cursive;
+  padding: none;
+  font-size: 32px;
+  text-align: center;
+}
+#top_nav {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.nav {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.nav_a {
+  font-family: 'Indie Flower', cursive;
+  font-size: 18px;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  padding: none;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+}
+.index_About {
+    float: left;
+    width: 75px;
+    margin-left: 44%;
+}
+.index_Resume {
+    float: left;
+    width: 75px;
+    padding-right:30%;
+    padding-bottom:10px;
+}
+section {
+  font-family: 'Indie Flower', cursive;
+  position: relative;
+  padding-top: 125px;
+}
+#Callen {
+    display:block;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    display: block;
+    width:50%;
+    height:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+  font-family: 'Indie Flower', cursive;
+}
+.index_copy {
+    text-align: center;
+}
+
+.left {
+  float:left;
+  width:10%;
+  padding-left:30%%;
+}
+
+.middle {
+  float:left;
+  width:10%;
+  padding-left:5%
+}
+
+.right {
+  float:left;
+  width:10%;
+  padding-left:5%;
+}
+
+
+/* For About.html*/
+
+.About_Home {
+  float:left;
+  width:75px;
+  padding-left: 44%;
+}
+
+.About_Resume {
+  float:left;
+  width:75px;
+  padding-right:30%;
+  padding-bottom:10px;
+}
+
+.About_Summary {
+  text-align: center;
+  font-style: italic;
+  width: 70%;
+  padding-left:15%;
+}
+.About_Callen {
+  text-align: center;
+  font-style: italic;
+  width: 100%;
+}
+video {
+    display:block;
+    width: 65%;
+    height: 40%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+/* For Resume.html */
+
+.Resume_Title {
+  text-align: center;
+}
+.Resume_Home {
+  float:left;
+  width:75px;
+  padding-left: 44%;
+}
+.Resume_About {
+  float:left;
+  width:75px;
+  padding-right:30%;
+  padding-bottom:10px;
+}
+.Resume_Summary {
+  text-align: center;
+  font-style: italic;
+  width: 70%;
+  padding-left:15%; 
+}
+table, th, td {
+   border: 1px solid black;
+}
+table#personal {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 1px solid black;
+  text-align: center;
+}
+#personal_div {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 25px;
+ } 
+#experience_div {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 25px;
+}
+table#experience {
+    width: 80%;
+    border: 1px solid black;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
